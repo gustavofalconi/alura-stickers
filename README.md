@@ -8,7 +8,11 @@ Projeto feito na Imersão Java da Alura, onde criamos juntos um programa que é 
 
 ## 🛠️ Abrir e rodar o projeto
 
-**O alura-stickers é simples, basta baixar a pasta e importar em alguma IDE ou abri-la diretamente no VS Code e rodar com o tipo de arquivo de preferência, pois ele suporta diferentes tipos, como fotos da máquina ou na web, seria necessário mudar no código**
+**O alura-stickers é simples, basta baixar a pasta e importar em alguma IDE ou abri-la diretamente no VS Code e rodar com o tipo de arquivo de preferência, pois ele suporta diferentes tipos, como fotos da máquina ou na web, seria necessário mudar na linha 37 do App.java**
+
+```
+InputStream inputStream = new URL(conteudo.urlImagem()).openStream();
+```
 
 **Já a API das linguagens seria necessário fazer a troca do banco de dados na API, assim utilizando um banco do MongoDB criado pela pessoa que for usar, pois não está na núvem**
 
